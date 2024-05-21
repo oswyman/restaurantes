@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Nominaciones Estrella Michelin</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    h1 {
+      color: #ff6347;
+    }
+    form {
+      display: inline-block;
+      margin-top: 20px;
+    }
+    input[type="text"] {
+      padding: 10px;
+      margin: 5px;
+      width: 300px;
+      font-size: 16px;
+    }
+    input[type="submit"] {
+      padding: 10px 20px;
+      background-color: #ff6347;
+      color: white;
+      border: none;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    input[type="submit"]:hover {
+      background-color: #ff4500;
+    }
+  </style>
+</head>
+<body>
+  <h1>¡Nomina tu Restaurante Favorito en Pachuca!</h1>
+  <p>¿Qué restaurantes crees que merecen una estrella Michelin? ¡Dinos tus tres favoritos!</p>
+  <form method="POST">
+    <input type="text" name="restaurant1" placeholder="Primer Restaurante"><br>
+    <input type="text" name="restaurant2" placeholder="Segundo Restaurante"><br>
+    <input type="text" name="restaurant3" placeholder="Tercer Restaurante"><br>
+    <input type="submit" value="Enviar Nominaciones">
+  </form>
+</body>
+</html>
